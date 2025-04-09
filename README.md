@@ -85,10 +85,7 @@ src/components/
 ```
 Want to reach out or collaborate?
 
-🌐 Website: frezafnp.vercel.app
+📧 Email: freza36.fathur@gmail.com
 
-📧 Email: frezafathur@gmail.com
-
-💼 LinkedIn: Freza Fathur Nur Purnomo
-```
+💼 LinkedIn: Freza Fathur
 
