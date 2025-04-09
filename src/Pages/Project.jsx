@@ -53,7 +53,22 @@ const projects = [
     link: '/projects/portfolio',
     category: 'Web Development',
   },
-  
+  {
+    id: 7,
+    title: 'Supply Chain Blockchain Model',
+    description: 'Conceptual SCM system using blockchain for traceability and transparency.',
+    image: '/assets/project-thumbs/blockchain-scm.png',
+    link: '/projects/blockchain-scm',
+    category: 'Data Analyst',
+  },
+  {
+    id: 8,
+    title: 'E-commerce UI Design',
+    description: 'UI/UX Design for an e-commerce platform focusing on usability.',
+    image: '/assets/project-thumbs/ecommerce-ui.png',
+    link: '/projects/ecommerce-ui',
+    category: 'UI/UX',
+  },
 ];
 
 const Project = () => {
