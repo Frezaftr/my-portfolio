@@ -53,7 +53,7 @@ npm run preview
 yarn preview
 ```
 
-## ✨ Features
+###✨ Features
 🔁 Looping typing animation with TheaterJS
 
 🎇 Futuristic WebGL backgrounds with Vanta.js
@@ -67,7 +67,7 @@ yarn preview
 ⚡ Fast dev/build time with Vite
 ```
 ```
-## 🔧 Customization
+###🔧 Customization
 src/pages/AboutMe.jsx
 
 src/pages/Projects.jsx
@@ -79,7 +79,7 @@ src/pages/Skills.jsx
 src/components/
 ```
 ```
-📬 Contact
+### 📬 Contact
 Want to reach out or collaborate?
 
 🌐 Website: frezafnp.vercel.app
