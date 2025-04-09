@@ -30,4 +30,26 @@ This is a **personal portfolio website** built using **React** and **Vite**, des
 git clone https://github.com/frezafnp/my-portfolio.git
 cd my-portfolio
 
-📦 2. Install Dependencies
+###📦 2. Install Dependencies
+npm install
+# or
+yarn install
+⚠️ If you encounter 'vite' is not recognized as an internal or external command, make sure you have run npm install and use npm run dev instead of typing vite directly.
+
+###💻 3. Start Development Server
+npm run dev
+# or
+yarn dev
+
+###📦 4. Build for Production
+npm run build
+# or
+yarn build
+
+###🔍 5. Preview Production Build
+npm run preview
+# or
+yarn preview
+
+
+
