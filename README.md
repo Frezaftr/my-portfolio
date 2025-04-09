@@ -1,8 +1,7 @@
 # 🚀 Freza's Futuristic Portfolio
 
 This is a **personal portfolio website** built using **React** and **Vite**, designed with a **futuristic, interactive, and animated** user interface. Inspired by modern design trends (like bybobyy.com), this portfolio showcases skills, experiences, and projects with engaging effects using **Framer Motion**, **TheaterJS**, **Three.js/Vanta.js**, and more.
-
-![Preview Screenshot](./preview.png) <!-- Optional: add screenshot here -->
+![Screenshot 2025-04-09 193406](https://github.com/user-attachments/assets/d68bd257-4e69-4afb-858d-64d3a71d9e5f)
 
 ---
 
