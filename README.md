@@ -26,7 +26,7 @@ This is a **personal portfolio website** built using **React** and **Vite**, des
 
 ```
 bash
-git clone https://github.com/frezafnp/my-portfolio.git
+git clone https://github.com/frezaftr/my-portfolio.git
 cd my-portfolio
 
 📦 2. Install Dependencies
