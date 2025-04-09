@@ -51,6 +51,41 @@ yarn build
 npm run preview
 # or
 yarn preview
+```
 
+## ✨ Features
+🔁 Looping typing animation with TheaterJS
 
+🎇 Futuristic WebGL backgrounds with Vanta.js
+
+🎮 Interactive UI and hover effects via Framer Motion
+
+📱 Fully responsive design (desktop & mobile)
+
+🌙 Dark theme with neon glow styling
+
+⚡ Fast dev/build time with Vite
+```
+```
+## 🔧 Customization
+src/pages/AboutMe.jsx
+
+src/pages/Projects.jsx
+
+src/pages/Experience.jsx
+
+src/pages/Skills.jsx
+
+src/components/
+```
+```
+📬 Contact
+Want to reach out or collaborate?
+
+🌐 Website: frezafnp.vercel.app
+
+📧 Email: frezafathur@gmail.com
+
+💼 LinkedIn: Freza Fathur Nur Purnomo
+```
 
