@@ -51,7 +51,7 @@ npm run preview
 yarn preview
 ```
 
-###✨ Features
+##✨ Features
 ```
 🔁 Looping typing animation with TheaterJS
 
@@ -67,7 +67,7 @@ yarn preview
 ```
 
 
-###🔧 Customization
+##🔧 Customization
 ```
 src/pages/AboutMe.jsx
 
@@ -81,7 +81,7 @@ src/components/
 
 
 ```
-### 📬 Contact
+## 📬 Contact
 ```
 Want to reach out or collaborate?
 
