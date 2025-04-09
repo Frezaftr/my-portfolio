@@ -7,26 +7,27 @@ This is a **personal portfolio website** built using **React** and **Vite**, des
 
 ## 🛠 Tech Stack
 
-- **React + Vite** – Fast, modern front-end development
-- **Framer Motion** – Smooth and interactive animations
-- **TheaterJS** – Typing animation for hero section
-- **Three.js + Vanta.js** – Futuristic animated WebGL backgrounds
-- **Tailwind CSS** – Utility-first CSS styling
-- **ESLint** – Linting and code formatting
-
----
-
-## 📦 Project Structure
-
-
+- ⚛️ **React + Vite** – Fast front-end development
+- 🎞 **Framer Motion** – Page and component animations
+- 🎹 **TheaterJS** – Typing animation for hero text
+- 🌌 **Three.js + Vanta.js** – Futuristic WebGL backgrounds
+- 💨 **Tailwind CSS** – Utility-first styling
+- 🧹 **ESLint** – Code linting and formatting
 ---
 
 ## 🚀 Getting Started
 
-Make sure you have **Node.js (v16 or later)** and **npm** or **yarn** installed.
+### 🔧 Prerequisites
 
-### 1. Clone the Repository
+- [Node.js](https://nodejs.org/) (version 16 or above)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+---
+
+### 🌀 1. Clone the Repository
 
 ```bash
 git clone https://github.com/frezafnp/my-portfolio.git
 cd my-portfolio
+
+📦 2. Install Dependencies
