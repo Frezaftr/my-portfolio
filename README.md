@@ -22,8 +22,6 @@ This is a **personal portfolio website** built using **React** and **Vite**, des
 - [Node.js](https://nodejs.org/) (version 16 or above)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
----
-
 ### 🌀 1. Clone the Repository
 
 ```
@@ -54,6 +52,7 @@ yarn preview
 ```
 
 ###✨ Features
+```
 🔁 Looping typing animation with TheaterJS
 
 🎇 Futuristic WebGL backgrounds with Vanta.js
@@ -66,8 +65,10 @@ yarn preview
 
 ⚡ Fast dev/build time with Vite
 ```
-```
+
+
 ###🔧 Customization
+```
 src/pages/AboutMe.jsx
 
 src/pages/Projects.jsx
@@ -77,9 +78,11 @@ src/pages/Experience.jsx
 src/pages/Skills.jsx
 
 src/components/
-```
+
+
 ```
 ### 📬 Contact
+```
 Want to reach out or collaborate?
 
 🌐 Website: frezafnp.vercel.app
