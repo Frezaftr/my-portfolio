@@ -1,12 +1,33 @@
-# React + Vite
+# 🚀 Freza's Futuristic Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **personal portfolio website** built using **React** and **Vite**, designed with a **futuristic, interactive, and animated** user interface. Inspired by modern design trends (like bybobyy.com), this portfolio showcases skills, experiences, and projects with engaging effects using **Framer Motion**, **TheaterJS**, **Three.js/Vanta.js**, and more.
 
-Currently, two official plugins are available:
+![Preview Screenshot](./preview.png) <!-- Optional: add screenshot here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React + Vite** – Fast, modern front-end development
+- **Framer Motion** – Smooth and interactive animations
+- **TheaterJS** – Typing animation for hero section
+- **Three.js + Vanta.js** – Futuristic animated WebGL backgrounds
+- **Tailwind CSS** – Utility-first CSS styling
+- **ESLint** – Linting and code formatting
+
+---
+
+## 📦 Project Structure
+
+
+---
+
+## 🚀 Getting Started
+
+Make sure you have **Node.js (v16 or later)** and **npm** or **yarn** installed.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/frezafnp/my-portfolio.git
+cd my-portfolio
