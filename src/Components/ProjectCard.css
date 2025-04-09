@@ -1,0 +1,30 @@
+.project-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00f9ff33;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 280px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #00f9ff55;
+  }
+  
+  .tech-stack {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech {
+    background-color: #00f9ff22;
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #00f9ff;
+  }
+  

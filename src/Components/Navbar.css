@@ -1,0 +1,74 @@
+/* Navbar.css */
+.navbar {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 20px #00ffe5;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #00ffe5;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background-color: #00ffe5;
+    transition: 0.4s;
+  }
+  
+  .nav-links a:hover {
+    color: #00ffe5;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  .active {
+    color: #00ffe5;
+  }
+  
+  .download-cv-btn {
+    background-color: #2563eb; /* biru */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+  }
+  
+  .download-cv-btn:hover {
+    background-color: #1e40af;
+  }
+  

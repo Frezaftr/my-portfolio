@@ -1,0 +1,127 @@
+/* src/Pages/Experience.css */
+
+.experience-page {
+  padding: 6rem 2rem;
+  min-height: 100vh;
+  color: #e0e0e0;
+  position: relative;       /* Penting agar background bisa diatur posisi */
+  overflow: hidden;         /* Cegah scroll akibat animasi background */
+  z-index: 1;               /* Pastikan konten di atas background */
+}
+
+/* Animated background layer */
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;               /* Background berada di bawah */
+  pointer-events: none;     /* Tidak menghalangi klik */
+}
+
+/* Tombol Back */
+.back-button {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #00f6ff;
+  color: #00f6ff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  z-index: 2;               /* Di atas background */
+}
+
+.back-button:hover {
+  background-color: #00f6ff22;
+}
+
+/* Judul Halaman */
+.experience-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #00f6ff, #ff00d4, #00f6ff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 6s ease infinite, glow 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+/* Grid kartu pengalaman */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+/* Kartu pengalaman */
+.experience-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00f6ff33;
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #00f6ff33;
+}
+
+.experience-role {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00f6ff;
+}
+
+.experience-company {
+  font-size: 1.1rem;
+  color: #ffffffcc;
+}
+
+.experience-date {
+  font-size: 0.95rem;
+  color: #aaaaaa;
+  margin-bottom: 1rem;
+}
+
+.experience-list {
+  padding-left: 1.2rem;
+  list-style: disc;
+  color: #ddd;
+}
+
+/* Animasi gradasi berjalan */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Efek glow halus untuk teks */
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #00f6ff, 0 0 20px #ff00d4;
+  }
+  50% {
+    text-shadow: 0 0 20px #ff00d4, 0 0 30px #00f6ff;
+  }
+}

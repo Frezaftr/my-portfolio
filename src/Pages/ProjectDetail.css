@@ -1,0 +1,47 @@
+/* src/Pages/ProjectDetail.css */
+.project-detail-page {
+    padding: 4rem 2rem;
+    color: #e0e0e0;
+    background: linear-gradient(145deg, #0e0e0e, #1c1c1c);
+    min-height: 100vh;
+  }
+  
+  .project-detail-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #00f9ff;
+  }
+  
+  .project-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .project-detail-description {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #e0e0e0;
+  }
+
+  .back-button-wrapper {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1f2937;
+    color: white;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #374151;
+  }
+  

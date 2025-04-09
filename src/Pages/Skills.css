@@ -1,0 +1,81 @@
+.skills-page {
+  min-height: 100vh;
+  padding: 2rem;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.back-button {
+  background-color: transparent;
+  border: 2px solid cyan;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: cyan;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skills-group-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-group-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-group-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: cyan;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-pill {
+  background: rgba(0, 255, 255, 0.1);
+  border: 1px solid cyan;
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  color: white;
+  white-space: nowrap;
+  transition: background 0.3s ease;
+}
+
+.skill-pill:hover {
+  background: cyan;
+  color: black;
+  cursor: default;
+}

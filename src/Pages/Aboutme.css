@@ -1,0 +1,124 @@
+.aboutme-wrapper {
+    position: relative;
+    min-height: 100vh;
+    padding: 5rem 2rem;
+    background-color: #0f0f1a;
+    overflow: hidden;
+  }
+  
+  
+  .aboutme-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .name-highlight {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00f9ff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 10px #00f9ff88;
+  }
+  
+  .role-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #ffffffcc;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #ffffff99;
+    line-height: 1.6;
+  }
+  
+  /* Card Section */
+  .aboutme-card-section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .info-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00f9ff22;
+    padding: 1.5rem;
+    width: 260px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px #00f9ff22;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00f9ff66;
+    border-color: #00f9ff99;
+  }
+  
+  .footer {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .social-icons a {
+    margin: 0 1rem;
+    color: white;
+    font-size: 1.7rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #60a5fa;
+  }
+  
+  about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .aboutme-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 12px #00ffff, 0 0 20px #00ffff;
+    margin-bottom: 20px;
+  }
+  
+  .aboutme-description {
+    font-size: 1.2rem;
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    padding-bottom: 60px;
+  }
+  
