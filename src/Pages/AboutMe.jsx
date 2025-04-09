@@ -84,9 +84,9 @@ const AboutMe = () => {
         </div>
 
         {/* Konten sosial media */}
-        <div className="relative z-10 flex justify-center gap-6 text-white text-2xl h-full items-center">
+        <div className="relative z-10 flex justify-center gap-6 text-blue text-2xl h-full items-center">
           <a href="https://github.com/FrezaFtr" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github hover:text-blue-400 transition" />
+            <i className="fab fa-github hover:text-blue-500 transition" />
           </a>
           <a href="https://linkedin.com/in/FrezaFtr" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin hover:text-blue-400 transition" />
