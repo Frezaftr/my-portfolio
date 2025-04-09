@@ -1,9 +1,8 @@
 // src/Pages/Skills.jsx
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import * as THREE from 'three';
-import FOG from 'vanta/dist/vanta.fog.min';
+import AnimatedBackground from '../Components/AnimatedBackground';
 import './Skills.css';
 
 const skillGroups = [
@@ -46,58 +45,51 @@ const skillGroups = [
 
 const Skills = () => {
   const navigate = useNavigate();
-  const vantaRef = useRef(null);
-
-  useEffect(() => {
-    const vantaEffect = FOG({
-      el: vantaRef.current,
-      THREE: THREE,
-      highlightColor: 0x00fff7,
-      midtoneColor: 0x0a0a23,
-      lowlightColor: 0x000000,
-      baseColor: 0x050510,
-      blurFactor: 0.6,
-      speed: 1.2,
-      zoom: 1.0,
-    });
-
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
-  }, []);
 
   return (
     <motion.div
-      ref={vantaRef}
-      className="skills-page"
+      className="skills-page relative"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <button className="back-button" onClick={() => navigate('/')}>
-        ← Back to About Me
-      </button>
+      {/* Animated Background */}
+      <div className="absolute inset-0 z-0">
+        <AnimatedBackground />
+      </div>
 
-      <h2 className="skills-title">My Skills</h2>
+      {/* Content */}
+      <div className="relative z-10 p-8 min-h-screen">
+        <button
+          className="back-button mb-8"
+          onClick={() => navigate('/')}
+        >
+          ← Back to About Me
+        </button>
 
-      <div className="skills-group-container">
-        {skillGroups.map((group, index) => (
-          <motion.div
-            key={index}
-            className="skill-group-card"
-            whileHover={{ scale: 1.03 }}
-            transition={{ duration: 0.3 }}
-          >
-            <h3 className="skill-group-title">{group.category}</h3>
-            <div className="skills-list">
-              {group.skills.map((skill, idx) => (
-                <div key={idx} className="skill-pill">
-                  {skill}
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        ))}
+        <h2 className="skills-title text-4xl font-bold text-white mb-10 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)] text-center">
+          My Skills
+        </h2>
+
+        <div className="skills-group-container grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {skillGroups.map((group, index) => (
+            <motion.div
+              key={index}
+              className="skill-group-card bg-[#1f2937] rounded-2xl p-6 text-white shadow-lg hover:shadow-cyan-500/50 transition hover:scale-105"
+              whileHover={{ scale: 1.03 }}
+              transition={{ duration: 0.3 }}
+            >
+              <h3 className="skill-group-title text-2xl font-semibold mb-4">{group.category}</h3>
+              <div className="skills-list flex flex-wrap gap-2">
+                {group.skills.map((skill, idx) => (
+                  <span key={idx} className="skill-pill bg-cyan-800 px-3 py-1 rounded-full text-sm">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </motion.div>
   );

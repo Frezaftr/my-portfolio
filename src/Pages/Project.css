@@ -1,149 +1,102 @@
-/* src/Pages/Project.css */
-
 .project-page {
-  padding: 6rem 2rem;
   min-height: 100vh;
-  color: #e0e0e0;
+  background-color: #0f0f1a;
+  padding: 4rem 4rem; /* Tambah padding kiri-kanan */
+  color: white;
   position: relative;
-  z-index: 1;
   overflow: hidden;
-  max-width: 1400px;
-  margin: 0 auto;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #00f9ff;
+  text-shadow: 0 0 15px #00f9ff88;
 }
 
 .back-button {
   position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  background-color: transparent;
-  border: 1px solid #00f6ff;
-  color: #00f6ff;
+  top: 2rem;
+  left: 2rem;
+  background: transparent;
+  border: 2px solid #00f9ff88;
+  color: #00f9ff;
   padding: 0.5rem 1rem;
   border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
-  font-size: 1rem;
-  transition: 0.3s ease;
-  z-index: 2;
+  z-index: 10;
+  transition: all 0.3s ease;
 }
 
 .back-button:hover {
-  background-color: #00f6ff22;
+  background-color: #00f9ff22;
+  box-shadow: 0 0 10px #00f9ff88;
 }
 
-.project-title {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 3rem;
-  font-weight: 700;
-  background: linear-gradient(-45deg, #00f6ff, #ff00d4, #00f6ff);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientMove 6s ease infinite, glow 3s ease-in-out infinite;
-}
-
-/* Category Title */
-.project-category-title {
-  font-size: 1.8rem;
-  margin: 2rem 0 1rem;
-  color: #00f6ff;
-  font-weight: bold;
-  text-align: left;
-  border-left: 4px solid #ff00d4;
-  padding-left: 1rem;
-  animation: glow 4s ease-in-out infinite;
-}
-
-/* Grid Layout */
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.2rem; /* Lebih rapat dari sebelumnya */
-  justify-items: center;
-  align-items: start;
-  margin-bottom: 3rem;
-}
-
-/* Project Card styling */
-.project-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #00f6ff33;
-  border-radius: 16px;
-  padding: 1.5rem;
-  backdrop-filter: blur(8px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Container tiap kategori */
+.project-category-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  max-width: 350px;
+  align-items: flex-start; /* RATA KIRI */
+  margin-bottom: 3rem;
+}
+
+.project-category-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #ffffffcc;
+  text-shadow: 0 0 10px #00f9ff44;
+  text-align: left; /* RATA KIRI */
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start; /* RATA KIRI */
+}
+
+/* CARD STYLING */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00f9ff22;
+  border-radius: 16px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0 0 15px #00f9ff11;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 0 20px #00f6ff55;
+  box-shadow: 0 0 20px #00f9ff77;
+  border-color: #00f9ff99;
 }
 
-/* Thumbnail */
 .project-card img {
   width: 100%;
-  height: 200px; /* atau bisa disesuaikan, misal 180px, 250px */
+  height: 180px;
   object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 1rem;
+  border-bottom: 1px solid #00f9ff22;
 }
 
+.project-card-content {
+  padding: 1rem;
+}
 
-/* Title & Description */
-.project-card h3 {
+.project-card-title {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 600;
+  color: #00f9ff;
   margin-bottom: 0.5rem;
-  color: #00f6ff;
 }
 
-.project-card p {
+.project-card-description {
   font-size: 0.95rem;
-  color: #ccc;
-}
-
-/* Optional TechStack/Badge (if needed later) */
-.tech-stack {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.tech-badge {
-  background: #00f6ff22;
-  border: 1px solid #00f6ff66;
-  padding: 0.3rem 0.7rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  color: #00f6ff;
-}
-
-/* Gradient & Glow Animation */
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes glow {
-  0%, 100% {
-    text-shadow: 0 0 10px #00f6ff, 0 0 20px #ff00d4;
-  }
-  50% {
-    text-shadow: 0 0 20px #ff00d4, 0 0 30px #00f6ff;
-  }
-}
-
-/* Responsive Grid on Wide Screen */
-@media (min-width: 1280px) {
-  .project-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
+  color: #ffffffcc;
 }

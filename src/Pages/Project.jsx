@@ -1,9 +1,11 @@
 // src/Pages/ProjectDetail.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useNavigate, useParams } from 'react-router-dom'; // Import useNavigate dan useParams
+import { useNavigate, useParams } from 'react-router-dom';
+import AnimatedBackground from '../Components/AnimatedBackground';
 import ProjectCard from '../Components/ProjectCard';
 import './Project.css';
+
 const projects = [
   {
     id: 1,
@@ -72,9 +74,8 @@ const projects = [
 ];
 
 const Project = () => {
-  const navigate = useNavigate(); // Initialize navigate function
+  const navigate = useNavigate();
 
-  // Grouping projects by category
   const groupedProjects = projects.reduce((acc, project) => {
     if (!acc[project.category]) {
       acc[project.category] = [];
@@ -85,28 +86,48 @@ const Project = () => {
 
   return (
     <motion.div
-      className="project-page"
+      className="project-page relative min-h-screen overflow-hidden text-white px-6 md:px-20 py-10 bg-[#0f0f1a]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      {/* Tombol back yang ditempatkan di pojok kiri atas */}
-      <button className="back-button" onClick={() => navigate('/')}>
-        ← Back to About Me
-      </button>
+      <div className="absolute inset-0 z-0">
+        <AnimatedBackground />
+      </div>
 
-      <h2 className="project-title">My Projects</h2>
+      <div className="relative z-10">
+        <button
+          className="mb-8 px-4 py-2 bg-[#1f2937] hover:bg-blue-600 rounded-lg text-white shadow-lg hover:scale-105 transition-all"
+          onClick={() => navigate('/')}
+        >
+          ← Back to About Me
+        </button>
 
-      {Object.keys(groupedProjects).map((category) => (
-        <div key={category} className="project-category-section">
-          <h3 className="project-category-title">{category}</h3>
-          <div className="project-grid">
-            {groupedProjects[category].map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
+        <h2 className="text-4xl font-bold mb-10 text-center drop-shadow-[0_0_15px_rgba(0,255,255,0.8)]">
+          My Projects
+        </h2>
+
+        {Object.keys(groupedProjects).map((category) => (
+          <div key={category} className="mb-12">
+            <h3 className="text-2xl font-semibold mb-6 text-cyan-400 drop-shadow-[0_0_10px_rgba(0,255,255,0.6)]">
+              {category}
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {groupedProjects[category].map((project) => (
+                <motion.div
+                  key={project.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4 }}
+                  viewport={{ once: true }}
+                >
+                  <ProjectCard project={project} />
+                </motion.div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </motion.div>
   );
 };

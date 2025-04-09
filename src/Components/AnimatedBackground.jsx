@@ -9,19 +9,19 @@ const AnimatedBackground = () => {
 
   return (
     <Particles
-      id="tsparticles"
+      id="tsparticles-footer"
       init={particlesInit}
       options={{
         preset: "triangles",
-        fullScreen: {
-          enable: true,
-          zIndex: -1,
-        },
-        background: {
-          color: {
-            value: "#0d0d0d", // Ganti sesuai tema kamu
-          },
-        },
+        fullScreen: { enable: false },
+        background: { color: { value: "#0F0F1A" } },
+      }}
+      style={{
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+        zIndex: 0,
+        opacity : "50%"
       }}
     />
   );

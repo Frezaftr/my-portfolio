@@ -19,7 +19,7 @@ const AboutMe = () => {
     };
 
     const startTyping = (theater) => {
-      theater.addActor('name', { speed: 0.9, accuracy: 0.8 });
+      theater.addActor('name', { speed: 0.9, accuracy: 0.9 });
 
       const loop = () => {
         theater
@@ -38,7 +38,7 @@ const AboutMe = () => {
 
   return (
     <div className="aboutme-wrapper" style={{ position: 'relative', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <AnimatedBackground />
+      {/* AnimatedBackground hanya di footer */}
 
       <div className="aboutme-content">
         <h1 id="name" className="name-highlight text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)]"></h1>
@@ -77,8 +77,14 @@ const AboutMe = () => {
         </Link>
       </div>
 
-      <footer className="footer mt-16 mb-8 z-10">
-        <div className="social-icons flex justify-center gap-6 text-white text-2xl">
+      <footer className="relative mt-16 mb-8" style={{ height: "200px", overflow: "hidden" }}>
+        {/* Bungkus AnimatedBackground agar punya tinggi */}
+        <div className="absolute inset-0">
+          <AnimatedBackground />
+        </div>
+
+        {/* Konten sosial media */}
+        <div className="relative z-10 flex justify-center gap-6 text-white text-2xl h-full items-center">
           <a href="https://github.com/FrezaFtr" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github hover:text-blue-400 transition" />
           </a>
@@ -90,10 +96,9 @@ const AboutMe = () => {
           </a>
         </div>
       </footer>
+
     </div>
   );
 };
 
-
 export default AboutMe;
-

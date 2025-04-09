@@ -1,3 +1,4 @@
+// src/Pages/Experience.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
@@ -69,7 +70,7 @@ const Experience = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="experience-wrapper" style={{ position: 'relative', minHeight: '100vh' }}>
+    <div className="experience-wrapper relative min-h-screen">
       <AnimatedBackground />
       <motion.div
         className="experience-page z-10 relative px-6 md:px-20 py-16 text-white"
@@ -83,7 +84,7 @@ const Experience = () => {
           ← Back to About Me
         </button>
 
-        <h2 className="text-4xl font-bold mb-10 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)]">Experience</h2>
+        <h2 className="text-4xl font-bold mb-10 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)] text-center w-full">Experience</h2>
 
         <div className="experience-grid grid gap-8 md:grid-cols-2">
           {experienceData.map((exp) => (

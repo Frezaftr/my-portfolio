@@ -6,6 +6,8 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: #0f0f1a;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 #tsparticles {
@@ -15,4 +17,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+html, body, #root {
+  height: 100%;
 }
