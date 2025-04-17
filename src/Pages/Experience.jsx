@@ -12,10 +12,11 @@ const experienceData = [
     title: 'System Analyst Intern',
     company: 'BINUS Online Learning',
     date: 'Sep 2023 - Feb 2024',
+    skills: 'UML , BINUS ',
     responsibilities: [
       'Melakukan requirement gathering dan analisis kebutuhan sistem',
       'Menyusun dokumen BRD (Business Requirements Document)',
-      'Membuat FSD (Functional Specification Document)',
+      'Membuat FRS (Functional Requirement Systems)',
       'Mendesain UI dan flowchart sistem menggunakan Visual Paradigm',
       'Melakukan query SQL untuk validasi struktur dan integritas database',
     ],
@@ -26,9 +27,10 @@ const experienceData = [
     company: 'RiddleStory',
     date: 'Mei 2023 - Jul 2023',
     responsibilities: [
-      'Menulis dan menjalankan skrip testing otomatis menggunakan Playwright & JavaScript',
-      'Melakukan regresi dan uji fungsional sistem',
-      'Bekerja sama dengan developer untuk menjaga kualitas rilis produk',
+      'Responsible for maintaining system quality on the RiddleStory website by identifying and preventing bugs, errors, and system failures through a thorough testing process. ',
+      'Develop and manage automation testing using Playwright and JavaScript to ensure consistency and stability of website features. ',
+      'Work closely with developers to maintain the quality of product releases',
+      'Using Git and Github in version management and code colllaboration in automated devleopmeny and testing'
     ],
   },
   {
@@ -37,9 +39,9 @@ const experienceData = [
     company: 'SIS Project, Binus University',
     date: 'Feb 2023 - Jul 2023',
     responsibilities: [
-      'Membangun aplikasi web menggunakan HTML, CSS, JavaScript, PHP & MySQL',
-      'Membuat dokumentasi teknis dan user manual sistem',
-      'Melakukan pengujian fungsionalitas dan perbaikan bug',
+      'Playes an active role in the devlopment of the SIS Project Website,a web platform used to promoted the company"s IT-based services and portofolio',
+      'Carry out system requirements analysis through communication with stakeholders to ensure features and interfaces are in line with business objectives',
+      'Developed Frontend displays using HTML,CSS,and JavaScript, and integrated the backend with PHP and mySQL for dynamic data management ',
     ],
   },
   {
@@ -48,9 +50,9 @@ const experienceData = [
     company: 'Binus University',
     date: 'Jan 2022 – Present',
     responsibilities: [
-      'Mengajar lebih dari 900 mahasiswa di lab programming dan sistem informasi',
-      'Menyusun materi praktikum, kuis, dan soal ujian',
-      'Memberikan asistensi penggunaan SAP S/4HANA untuk kelas ERP',
+      'Responsible for the teaching and assessment process of more than 900+ students for 5 semesters in various practicum courses in the Department of Information Systems. ',
+      'Developed laboratory teaching materials and Course Outlines for several courses such as Applied ERP, Database, mobile application development, Information System Project, and others.',
+      'Provide guidance and assistance in the practical use of SAP S/4HANA software in Applied ERP courses, both technically and conceptually. ',
     ],
   },
   {
@@ -59,9 +61,9 @@ const experienceData = [
     company: 'Binus University',
     date: 'Mar 2022 – Feb 2023',
     responsibilities: [
-      'Membimbing mahasiswa dalam pemahaman Java dan basis data',
-      'Mengadakan sesi mentoring dan menyusun soal latihan',
-      'Memberikan feedback terhadap hasil tugas dan latihan mahasiswa',
+      'Provided intensive academic guidance to students in Java Programming, Database, and Information System Project courses. ',
+      'Helps students understand the basic and advanced concepts of Java programming, including OOP (ObjectOriented Programming), exception handling, and data structures. ',
+      'Successfully improved student understanding significantly, as evidenced by the absence of course repetition in the mentees during the contract period. ',
     ],
   },
 ];
