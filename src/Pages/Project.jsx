@@ -42,10 +42,10 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Academic Scheduling System',
-    description: 'System Analyst - Membuat FRS dan diagram alur sistem penjadwalan akademik.',
+    title: 'Message & Blast Message Systems',
+    description: 'System Analyst - Creating FRS Message & Blast Message',
     image: '/assets/Project/certification-system2.png',
-    link: '/projects/academic-scheduling',
+    link: '/projects/Message-BlastMessage',
     category: 'System Analyst'
   },
   {
@@ -71,6 +71,14 @@ const projects = [
     image: '/assets/project-thumbs/ecommerce-ui.png',
     link: '/projects/ecommerce-ui',
     category: 'UI/UX',
+  },
+  {
+    id: 9,
+    title: 'UML Analysis Design "Tukang"',
+    description: 'Analysis for Case Tukang Project',
+    image: '/assets/Project/TukangCover.png',
+    link: '/projects/Tukang',
+    category: 'System Analyst',
   },
 ];
 
