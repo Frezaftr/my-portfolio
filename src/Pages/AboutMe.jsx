@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import AnimatedBackground from '../Components/AnimatedBackground';
-import './AboutMe.css';
+import './Aboutme.css';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
