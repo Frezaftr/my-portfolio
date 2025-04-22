@@ -8,6 +8,7 @@ import Project from "./Pages/Project";
 import Skill from "./Pages/Skill";
 import ProjectDetail from './Pages/ProjectDetail'; // Halaman detail proyek
 
+
 function App() {
   return (
     <Router>
