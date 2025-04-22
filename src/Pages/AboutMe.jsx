@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import AnimatedBackground from '../Components/AnimatedBackground';
+import AnimatedBackground from '../Components/AnimatedBackground1';
 import './Aboutme.css';
 import { Link } from 'react-router-dom';
+import AnimatedBackground1 from '../Components/AnimatedBackground1';
 
 const AboutMe = () => {
   useEffect(() => {
@@ -39,6 +40,7 @@ const AboutMe = () => {
   return (
     <div className="aboutme-wrapper" style={{ position: 'relative', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       {/* AnimatedBackground hanya di footer */}
+      <AnimatedBackground1 />
 
       <div className="aboutme-content">
         <h1 id="name" className="name-highlight text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)]"></h1>

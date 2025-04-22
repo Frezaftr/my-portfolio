@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadTrianglesPreset } from "tsparticles-preset-triangles";
 
-const AnimatedBackground = () => {
+const AnimatedBackground1 = () => {
   const particlesInit = useCallback(async (engine) => {
     await loadTrianglesPreset(engine);
   }, []);
@@ -21,10 +21,10 @@ const AnimatedBackground = () => {
         width: "100%",
         height: "100%",
         zIndex: 0,
-        opacity : "80%"
+        opacity : "20%"
       }}
     />
   );
 };
 
-export default AnimatedBackground;
+export default AnimatedBackground1;
