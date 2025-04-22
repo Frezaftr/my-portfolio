@@ -80,7 +80,7 @@ const AboutMe = () => {
       <footer className="relative mt-16 mb-8" style={{ height: "200px", overflow: "hidden" }}>
         {/* Bungkus AnimatedBackground agar punya tinggi */}
         <div className="absolute inset-0">
-          <AnimatedBackground />
+          {/* <AnimatedBackground /> */}
         </div>
 
         {/* Konten sosial media */}
