@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <motion.div
-      className="project-card w-[320px] h-[370px] bg-[#1e293b] text-white rounded-2xl shadow-md cursor-pointer overflow-hidden flex flex-col transition-all duration-300"
+      className="project-card w-[320px] h-[370px] bg-[#1e293b] text-white rounded-2xl shadow-md cursor-pointer overflow-hidden flex flex-col transition-all duration-100"
       whileHover={{ scale: 1.05, boxShadow: '0 0 20px #00f6ff' }}
       onClick={() => navigate(project.link)}
     >

@@ -58,7 +58,7 @@ const Skills = () => {
           ← Back to About Me
         </button>
       {/* Content */}
-      <div className="relative z-10 p-6 sm:p-8 min-h-screen flex flex-col pt-20"> {/* Added pt-16 */}
+      <div className="relative z-10 p-6 sm:p-8 min-h-screen flex flex-col "> {/* Added pt-16 */}
         <h2 className="skills-title text-3xl sm:text-4xl font-bold text-white mb-10 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)] text-center">
           My Skills
         </h2 >
