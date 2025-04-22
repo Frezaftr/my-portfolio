@@ -24,10 +24,6 @@ const skillGroups = [
     ],
   },
   {
-    category: 'UI/UX & Design',
-    skills: ['Figma'],
-  },
-  {
     category: 'Database & Backend',
     skills: ['MySQL', 'Microsft Sql Server', 'Oracle','MongoDB', 'RESTful API'],
   },
@@ -37,6 +33,10 @@ const skillGroups = [
       'Python','Sql', 'R (Basic)', 'Data Visualization',
       'Tableau', 'Microsoft Power BI', 'Microsoft Excel'
     ],
+  },
+  {
+    category: 'UI/UX & Design',
+    skills: ['Figma'],
   },
 ];
 

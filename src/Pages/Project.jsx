@@ -11,7 +11,7 @@ const projects = [
   {
     id: 1,
     title: 'Certification Non-Credit System',
-    description: 'System Analyst Intern - BINUS University | Functional Requirement Statement & Flow',
+    // description: 'System Analyst Intern - BINUS University | Functional Requirement Statement & Flow',
     image: '/assets/Project/certification-system.png',
     link: '/projects/certification-system',
     category: 'System Analyst',
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: 'Web Developer Portfolio',
-    description: 'Built with React, Framer Motion, futuristic design & responsive layout.',
+    // description: 'Built with React, Framer Motion, futuristic design & responsive layout.',
     image: '/assets/Project/web-dev.png',
     link: '/projects/portfolio',
     category: 'Web Development',
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 3,
     title: 'Supply Chain Blockchain Model',
-    description: 'Conceptual SCM system using blockchain for traceability and transparency.',
+    // description: 'Conceptual SCM system using blockchain for traceability and transparency.',
     image: '/assets/project-thumbs/blockchain-scm.png',
     link: '/projects/blockchain-scm',
     category: 'Data Analyst',
@@ -35,7 +35,7 @@ const projects = [
   {
     id: 4,
     title: 'E-commerce UI Design',
-    description: 'UI/UX Design for an e-commerce platform focusing on usability.',
+    // description: 'UI/UX Design for an e-commerce platform focusing on usability.',
     image: '/assets/project-thumbs/ecommerce-ui.png',
     link: '/projects/ecommerce-ui',
     category: 'UI/UX',
@@ -43,7 +43,7 @@ const projects = [
   {
     id: 5,
     title: 'Message & Blast Message Systems',
-    description: 'System Analyst - Creating FRS Message & Blast Message',
+    // description: 'System Analyst - Creating FRS Message & Blast Message',
     image: '/assets/Project/certification-system2.png',
     link: '/projects/Message-BlastMessage',
     category: 'System Analyst'
@@ -51,7 +51,7 @@ const projects = [
   {
     id: 6,
     title: 'Web Developer Portfolio',
-    description: 'Built with React, Framer Motion, futuristic design & responsive layout.',
+    // description: 'Built with React, Framer Motion, futuristic design & responsive layout.',
     image: '/assets/Project/web-dev2.png',
     link: '/projects/portfolio',
     category: 'Web Development',
@@ -59,7 +59,7 @@ const projects = [
   {
     id: 7,
     title: 'Supply Chain Blockchain Model',
-    description: 'Conceptual SCM system using blockchain for traceability and transparency.',
+    // description: 'Conceptual SCM system using blockchain for traceability and transparency.',
     image: '/assets/project-thumbs/blockchain-scm.png',
     link: '/projects/blockchain-scm',
     category: 'Data Analyst',
@@ -67,7 +67,7 @@ const projects = [
   {
     id: 8,
     title: 'E-commerce UI Design',
-    description: 'UI/UX Design for an e-commerce platform focusing on usability.',
+    // description: 'UI/UX Design for an e-commerce platform focusing on usability.',
     image: '/assets/project-thumbs/ecommerce-ui.png',
     link: '/projects/ecommerce-ui',
     category: 'UI/UX',
@@ -75,7 +75,7 @@ const projects = [
   {
     id: 9,
     title: 'UML Analysis Design "Tukang"',
-    description: 'Analysis for Case Tukang Project',
+    // description: 'Analysis for Case Tukang Project',
     image: '/assets/Project/TukangCover.png',
     link: '/projects/Tukang',
     category: 'System Analyst',

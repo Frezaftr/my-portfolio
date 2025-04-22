@@ -5,7 +5,6 @@ import * as THREE from 'three';
 import NET from 'vanta/dist/vanta.net.min';
 import './ProjectDetail.css';
 
-
 const projectData = {
   "certification-system": {
     title: "Certification Non-Credit System",
@@ -90,10 +89,10 @@ const ProjectDetail = () => {
   }
 
   return (
-    <div ref={vantaRef} className="min-h-screen w-full overflow-hidden relative">
-      <div className="absolute inset-0 z-10 px-6 py-16 text-white">
+    <div ref={vantaRef} className="min-h-screen w-full overflow-auto relative">
+      <div className="min-h-full px-6 py-16 text-white relative z-10">
         <motion.div
-          className="max-w-3xl mx-auto bg-black/30 backdrop-blur-md p-8 rounded-xl shadow-lg relative z-20"
+          className="max-w-3xl mx-auto bg-black/30 backdrop-blur-md p-8 rounded-xl shadow-lg"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
