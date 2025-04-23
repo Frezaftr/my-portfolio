@@ -19,21 +19,21 @@ const projectData = {
     description: "Built with React, Framer Motion, futuristic design & responsive layout.",
     tech: ["React", "Framer Motion", "Responsive", "Design"],
     image: "/assets/DetailProject/notFound.gif",
-    link: "https://yourportfolio.com"
+    link: "https://time.is/"
   },
   "blockchain-scm": {
     title: "Sorry this DataAnalyst Portofolio is undermaintenance",
     description: "Conceptual SCM system using blockchain for traceability and transparency.",
     tech: ["Blockchain", "Supply Chain", "SCM", "Conceptual Design"],
     image: "/assets/DetailProject/notFound.gif",
-    link: "https://example.com/blockchain-scm"
+    link: "https://time.is/"
   },
   "ecommerce-ui": {
     title: "Sorry this UI Portofolio is undermaintenance",
     description: "UI/UX Design for an e-commerce platform focusing on usability.",
     tech: ["UI/UX", "Figma", "Usability", "Design"],
     image: "/assets/DetailProject/notFound.gif",
-    link: "https://example.com/ecommerce-ui"
+    link: "https://time.is/"
   },
   "Message-BlastMessage": {
     title: "Message & Blast Message",
@@ -47,7 +47,7 @@ const projectData = {
     description: "Sistem untuk merancang penjadwalan akademik otomatis. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
     tech: ["System Analysis", "FRS", "DFD", "Stakeholder Analysis"],
     image: "/assets/DetailProject/TukangIsi.png",
-    link: "https://www.notion.so/Proyek-Message-Blast-Message-Feature-BINUS-Online-Learning-1ce1aa0c13888072bcead10ba0bc9d99?pvs=4"
+    link: "https://time.is/"
   },
 };
 
