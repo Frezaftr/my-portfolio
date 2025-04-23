@@ -1,10 +1,10 @@
 .project-page {
+  padding: 6rem 2rem;
   min-height: 100vh;
-  background-color: #0f0f1a;
-  padding: 4rem 4rem; /* Tambah padding kiri-kanan */
-  color: white;
-  position: relative;
-  overflow: hidden;
+  color: #e0e0e0;
+  position: relative;       /* Penting agar background bisa diatur posisi */
+  overflow: hidden;         /* Cegah scroll akibat animasi background */
+  z-index: 1;               /* Pastikan konten di atas background */
 }
 
 .project-title {
@@ -18,22 +18,21 @@
 
 .back-button {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
-  background: transparent;
-  border: 2px solid #00f9ff88;
-  color: #00f9ff;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #00f6ff;
+  color: #00f6ff;
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  font-weight: bold;
   cursor: pointer;
-  z-index: 10;
-  transition: all 0.3s ease;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  z-index: 2;               /* Di atas background */
 }
 
 .back-button:hover {
-  background-color: #00f9ff22;
-  box-shadow: 0 0 10px #00f9ff88;
+  background-color: #00f6ff22;
 }
 
 /* Container tiap kategori */

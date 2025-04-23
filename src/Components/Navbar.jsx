@@ -9,6 +9,8 @@ const navItems = [
   // { name: "Skills", path: "/skills" },
 ];
 
+
+
 export default function Navbar() {
   const location = useLocation();
 
@@ -25,7 +27,7 @@ export default function Navbar() {
       transition={{ type: "spring", stiffness: 80 }}
     >
       <div className="navbar-content">
-        <h1 className="logo">Welcome</h1>
+        <h1 className="logo">Hi, Im Freza</h1>
         <ul className="nav-links">
           {navItems.map((item) => (
             <li key={item.name}>
