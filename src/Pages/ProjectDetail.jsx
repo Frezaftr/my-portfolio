@@ -5,6 +5,7 @@ import * as THREE from 'three';
 import NET from 'vanta/dist/vanta.net.min';
 import './ProjectDetail.css';
 
+
 const projectData = {
   "certification-system": {
     title: "Certification Non-Credit System",
@@ -14,24 +15,24 @@ const projectData = {
     link: "https://www.notion.so/Proyek-Certification-Non-Credit-Earning-System-0ed164b09cbd47638109eeab0167bc2a?pvs=4"
   },
   "portfolio": {
-    title: "Web Developer Portfolio",
+    title: "Sorry this Webdev Portofolio is undermaintenance",
     description: "Built with React, Framer Motion, futuristic design & responsive layout.",
     tech: ["React", "Framer Motion", "Responsive", "Design"],
-    image: "/assets/project-thumbs/portfolio-site.png",
+    image: "/assets/DetailProject/notFound.gif",
     link: "https://yourportfolio.com"
   },
   "blockchain-scm": {
-    title: "Supply Chain Blockchain Model",
+    title: "Sorry this DataAnalyst Portofolio is undermaintenance",
     description: "Conceptual SCM system using blockchain for traceability and transparency.",
     tech: ["Blockchain", "Supply Chain", "SCM", "Conceptual Design"],
-    image: "/assets/project-thumbs/blockchain-scm.png",
+    image: "/assets/DetailProject/notFound.gif",
     link: "https://example.com/blockchain-scm"
   },
   "ecommerce-ui": {
-    title: "E-commerce UI Design",
+    title: "Sorry this UI Portofolio is undermaintenance",
     description: "UI/UX Design for an e-commerce platform focusing on usability.",
     tech: ["UI/UX", "Figma", "Usability", "Design"],
-    image: "/assets/project-thumbs/ecommerce-ui.png",
+    image: "/assets/DetailProject/notFound.gif",
     link: "https://example.com/ecommerce-ui"
   },
   "Message-BlastMessage": {
