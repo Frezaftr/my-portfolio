@@ -8,31 +8,31 @@ import './Project.css';
 const projects = [
   {
     id: 1,
-    title: 'Certification Non-Credit System',
-    image: '/assets/Project/certification-system.png',
-    link: '/projects/certification-system',
-    category: 'System Analyst',
-  },
-  {
-    id: 2,
     title: 'Website Frontend Kapitech',
     image: '/assets/Project/kapitechLanding.png',
     link: '/projects/kapitech',
     category: 'Web Development',
   },
   {
-    id: 3,
-    title: 'Supply Chain Blockchain Model',
-    image: '/assets/project-thumbs/blockchain-scm.png',
-    link: '/projects/blockchain-scm',
-    category: 'Data Analyst',
+    id: 2,
+    title: 'Certification Non-Credit System',
+    image: '/assets/Project/certification-system.png',
+    link: '/projects/certification-system',
+    category: 'System Analyst',
   },
   {
-    id: 4,
+    id: 3,
     title: 'E-commerce UI Design',
     image: '/assets/project-thumbs/ecommerce-ui.png',
     link: '/projects/ecommerce-ui',
     category: 'UI/UX',
+  },
+  {
+    id: 4,
+    title: 'Data Visualization Space Division',
+    image: '/assets/Project/landing.png',
+    link: '/projects/SpaceDivion',
+    category: 'Data Analyst',
   },
   {
     id: 5,
@@ -50,9 +50,9 @@ const projects = [
   },
   {
     id: 7,
-    title: 'Supply Chain Blockchain Model',
-    image: '/assets/project-thumbs/blockchain-scm.png',
-    link: '/projects/blockchain-scm',
+    title: 'ETL Data Warehousing',
+    image: '/assets/Project/coverdata.png',
+    link: '/projects/ETLData',
     category: 'Data Analyst',
   },
   {
@@ -68,6 +68,13 @@ const projects = [
     image: '/assets/Project/TukangCover.png',
     link: '/projects/Tukang',
     category: 'System Analyst',
+  },
+  {
+    id: 10,
+    title: 'Website Fullstack E-Apotek',
+    image: '/assets/Project/landingPageApotek.png',
+    link: '/projects/Apotek',
+    category: 'Web Development',
   },
 ];
 

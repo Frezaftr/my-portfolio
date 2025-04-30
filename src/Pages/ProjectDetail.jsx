@@ -35,11 +35,16 @@ const projectData = {
     ],
     link: "https://websitebaku.vercel.app/"
   },
-  "blockchain-scm": {
-    title: "Sorry this DataAnalyst Portofolio is undermaintenance",
-    description: "Conceptual SCM system using blockchain for traceability and transparency.",
-    tech: ["Blockchain", "Supply Chain", "SCM", "Conceptual Design"],
-    image: "/assets/project-thumbs/blockchain-scm.png",
+  "ETLData": {
+    title: "Extract Transform Load Data",
+    description: "perform extract transform data by modifying attributes and modifying data",
+    tech: ["Data Analyst", "ETL", "cube", "Data Warehouse"],
+    images: [
+      { src: '/assets/DetailProject/customerdimension.png', caption: 'Customer Dimension' },
+      { src: '/assets/DetailProject/customerdimensionflow.png', caption: 'Customer Dimension Flow Data Modification' },
+      { src: '/assets/DetailProject/PotDimension.png', caption: 'Pot Dimension Flow Data Modification' },
+      { src: '/assets/DetailProject/TimeDimension.png', caption: 'Time Dimension Query insert to olap' },
+    ],
     link: "https://example.com/blockchain-scm"
   },
   "ecommerce-ui": {
@@ -65,6 +70,28 @@ const projectData = {
     tech: ["System Analysis", "FRS", "DFD", "Stakeholder Analysis"],
     image: "/assets/DetailProject/TukangIsi.png",
     link: "https://www.notion.so/Proyek-Message-Blast-Message-Feature-BINUS-Online-Learning-1ce1aa0c13888072bcead10ba0bc9d99?pvs=4"
+  },
+  "Apotek": {
+    title: "Fullstack E-Apotek",
+    description: "Built using MERN Stack (MongoDB, Express, React, Node.js) with a modern and responsive design using Tailwind CSS.",
+    tech: ["ReactJS", "Tailwind", "ExpressJS", "MongoDB"],
+    images: [
+      { src: '/assets/DetailProject/ProdukSebelumSigin.png', caption: 'Tampilan Halaman Produk Sebelum Signin' },
+      { src: '/assets/DetailProject/setelahsignin.png', caption: 'setelah Signin dan data diverisikasi' },
+      { src: '/assets/DetailProject/detailtransaksi.png', caption: 'Halaman History' },
+      { src: '/assets/DetailProject/Admin.png', caption: 'Halaman Admin' }
+    ],
+    link: "https://github.com/Frezaftr/e-apotek"
+  },
+  "SpaceDivion": {
+    title: "Data Visualization Space Division",
+    description: "perform data visualization using Tableau and dashboard creation",
+    tech: ["Data Analyst", "Data Visualization", "Tableau"],
+    images: [
+      { src: '/assets/DetailProject/RefrenceLine.png', caption: 'Using Refrence Line' },
+      { src: '/assets/DetailProject/dashboard.png', caption: 'Creating Dashboard' },
+    ],
+    link: "https://example.com/blockchain-scm"
   },
 };
 
