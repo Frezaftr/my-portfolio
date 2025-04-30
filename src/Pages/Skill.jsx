@@ -51,17 +51,17 @@ const Skills = () => {
         animate={{ opacity: 1 }}
       >
         <button
-          className="mb-8 px-4 py-2 bg-[#1f2937] hover:bg-[#3fc3c9] rounded-lg text-white shadow-md hover:scale-105 transition-all"
+          className="mb-0 px-4 py-2 bg-[#1f2937] hover:bg-[#3fc3c9] rounded-lg text-white shadow-md hover:scale-105 transition-all"
           onClick={() => navigate('/')}
         >
           ← Back to About Me
         </button>
         
         {/* Content */}
-        <div className="relative z-10 p-6 sm:p-8 min-h-screen flex flex-col pt-16">
-          <h2 className="skills-title text-3xl sm:text-4xl font-bold text-white mb-10 drop-shadow-[0_0_15px_rgba(0,255,255,0.8)] text-center">
-            My Skills
-          </h2>
+        <div className="relative z-10 p-6 sm:p-5 min-h-screen flex flex-col">
+        <h2 className="text-4xl font-bold mb-10 text-center text-[#00e1e7] drop-shadow-[0_0_15px_rgba(0,255,255,0.3)]">
+            My Skill
+        </h2>
 
           <div className="skills-group-container grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {skillGroups.map((group, index) => (
