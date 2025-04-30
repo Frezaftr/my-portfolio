@@ -57,9 +57,9 @@ const projects = [
   },
   {
     id: 8,
-    title: 'E-commerce UI Design',
-    image: '/assets/project-thumbs/ecommerce-ui.png',
-    link: '/projects/ecommerce-ui',
+    title: 'Binus Square',
+    image: '/assets/Project/CaseUIUX.png',
+    link: '/projects/BinusSquare',
     category: 'UI/UX',
   },
   {

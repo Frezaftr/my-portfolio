@@ -68,9 +68,12 @@ const projectData = {
   },
   "Tukang": {
     title: "UML Analysis Design 'Tukang'",
-    description: "Sistem untuk merancang penjadwalan akademik otomatis. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
-    tech: ["System Analysis", "FRS", "DFD", "Stakeholder Analysis"],
-    image: "/assets/DetailProject/TukangIsi.png",
+    description: "Sistem untuk merancang pemesanan tukang untuk melakukan jasa perbaikan.",
+    tech: ["System Analysis", "Requirement", "Class Diagram", ],
+    images: [
+      { src: '/assets/DetailProject/Diagram1.png', caption: 'Class Diagram' },
+      { src: '/assets/DetailProject/DIAGRAM2.png', caption: 'Use Case Diagram' },
+    ],
     link: "https://www.notion.so/Proyek-Message-Blast-Message-Feature-BINUS-Online-Learning-1ce1aa0c13888072bcead10ba0bc9d99?pvs=4"
   },
   "Apotek": {
@@ -94,6 +97,17 @@ const projectData = {
       { src: '/assets/DetailProject/dashboard.png', caption: 'Creating Dashboard' },
     ],
     link: "https://example.com/blockchain-scm"
+  },
+  "BinusSquare": {
+    title: "UI & UX Binus Square ",
+    description: "UI/UX Design for an e-commerce platform focusing on usability.",
+    tech: ["UI/UX", "Figma", "Usability", "Design"],
+    images: [
+      { src: '/assets/DetailProject/DesignThingking.png', caption: 'Design Thingking Binus Square' },
+      { src: '/assets/DetailProject/ResearchResult.png', caption: 'Research' },
+      { src: '/assets/DetailProject/scanUI.png', caption: 'Scan Here To See UI' },
+    ],
+    link: "https://drive.google.com/file/d/11dzePMp-JxeAAVYCZOsklDZwz9mTGbd4/view?usp=sharing"
   },
 };
 
