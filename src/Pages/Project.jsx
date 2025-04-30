@@ -22,8 +22,8 @@ const projects = [
   },
   {
     id: 3,
-    title: 'E-commerce UI Design',
-    image: '/assets/project-thumbs/ecommerce-ui.png',
+    title: 'E-commerce (Style)',
+    image: '/assets/Project/Cover.png',
     link: '/projects/ecommerce-ui',
     category: 'UI/UX',
   },
