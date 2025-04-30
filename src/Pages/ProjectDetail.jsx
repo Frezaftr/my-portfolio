@@ -3,8 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './ProjectDetail.css';
 
-const primaryColor = '#00f0ff'; // warna aksen utama dari your website
-
 const projectData = {
   "certification-system": {
     title: "Certification Non-Credit System",
@@ -18,30 +16,24 @@ const projectData = {
     link: "https://www.notion.so/Proyek-Certification-Non-Credit-Earning-System-0ed164b09cbd47638109eeab0167bc2a?pvs=4"
   },
   "portfolio": {
-    title: "Web Developer Portfolio",
+    title: "Sorry this Webdev Portofolio is undermaintenance",
     description: "Built with React, Framer Motion, futuristic design & responsive layout.",
     tech: ["React", "Framer Motion", "Responsive", "Design"],
-    images: [
-      { src: "/assets/project-thumbs/portfolio-site.png", caption: "Portfolio Website UI" }
-    ],
+    image: "/assets/project-thumbs/portfolio-site.png",
     link: "https://yourportfolio.com"
   },
   "blockchain-scm": {
-    title: "Supply Chain Blockchain Model",
+    title: "Sorry this DataAnalyst Portofolio is undermaintenance",
     description: "Conceptual SCM system using blockchain for traceability and transparency.",
     tech: ["Blockchain", "Supply Chain", "SCM", "Conceptual Design"],
-    images: [
-      { src: "/assets/project-thumbs/blockchain-scm.png", caption: "SCM Blockchain UI Mockup" }
-    ],
+    image: "/assets/project-thumbs/blockchain-scm.png",
     link: "https://example.com/blockchain-scm"
   },
   "ecommerce-ui": {
-    title: "E-commerce UI Design",
+    title: "Sorry this UI Portofolio is undermaintenance",
     description: "UI/UX Design for an e-commerce platform focusing on usability.",
     tech: ["UI/UX", "Figma", "Usability", "Design"],
-    images: [
-      { src: "/assets/project-thumbs/ecommerce-ui.png", caption: "E-commerce Figma Design" }
-    ],
+    image: "/assets/project-thumbs/ecommerce-ui.png",
     link: "https://example.com/ecommerce-ui"
   },
   "Message-BlastMessage": {
@@ -56,14 +48,11 @@ const projectData = {
   },
   "Tukang": {
     title: "UML Analysis Design 'Tukang'",
-    description: "Perancangan UML untuk aplikasi pencarian tukang dengan sistem rating dan pemesanan.",
-    tech: ["System Analysis", "UML", "DFD", "Stakeholder Analysis"],
-    images: [
-      { src: "/assets/DetailProject/TukangIsi.png", caption: "Halaman Use Case 'Tukang'" },
-      { src: "/assets/DetailProject/TukangDFD.png", caption: "Diagram DFD Level 1" }
-    ],
-    link: "https://www.notion.so/Proyek-Tukang-Fitur-UML-Design-d2c56ec4c09c4a80b5d2c4a59dddc999?pvs=4"
-  }
+    description: "Sistem untuk merancang penjadwalan akademik otomatis. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
+    tech: ["System Analysis", "FRS", "DFD", "Stakeholder Analysis"],
+    image: "/assets/DetailProject/TukangIsi.png",
+    link: "https://www.notion.so/Proyek-Message-Blast-Message-Feature-BINUS-Online-Learning-1ce1aa0c13888072bcead10ba0bc9d99?pvs=4"
+  },
 };
 
 const ProjectDetail = () => {
