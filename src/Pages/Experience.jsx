@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import ExperienceCard from '../Components/ExperienceCard';
-import AnimatedBackground from '../Components/AnimatedBackground';
+// import AnimatedBackground from '../Components/AnimatedBackground';
 import './Experience.css';
 
 const experienceData = [
@@ -73,14 +73,14 @@ const Experience = () => {
 
   return (
     <div className="experience-wrapper relative min-h-screen overflow-hidden">
-      <AnimatedBackground />
+      {/* <AnimatedBackground /> */}
       <motion.div
         className="experience-page z-10 relative container mx-auto px-4 sm:px-6 lg:px-20 py-12 sm:py-16 text-white"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
         <button
-          className="back-button mb-8 px-4 py-2 bg-[#1f2937] hover:bg-blue-600 rounded-lg text-white shadow-lg hover:scale-105 transition-all"
+          className="mb-8 px-4 py-2 bg-[#1f2937] hover:bg-[#3fc3c9] rounded-lg text-white shadow-md hover:scale-105 transition-all"
           onClick={() => navigate('/')}
         >
           ← Back to About Me

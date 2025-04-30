@@ -1,3 +1,4 @@
+// src/Pages/Project.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
@@ -38,7 +39,7 @@ const projects = [
     title: 'Message & Blast Message Systems',
     image: '/assets/Project/certification-system2.png',
     link: '/projects/Message-BlastMessage',
-    category: 'System Analyst'
+    category: 'System Analyst',
   },
   {
     id: 6,
@@ -113,6 +114,8 @@ const Project = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
                   >
                     <ProjectCard project={project} />
                   </motion.div>
