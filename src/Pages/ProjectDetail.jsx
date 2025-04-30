@@ -15,12 +15,25 @@ const projectData = {
     ],
     link: "https://www.notion.so/Proyek-Certification-Non-Credit-Earning-System-0ed164b09cbd47638109eeab0167bc2a?pvs=4"
   },
-  "portfolio": {
-    title: "Sorry this Webdev Portofolio is undermaintenance",
+  "kapitech": {
+    title: "Website Frontend Kapitech",
     description: "Built with React, Framer Motion, futuristic design & responsive layout.",
     tech: ["React", "Framer Motion", "Responsive", "Design"],
-    image: "/assets/project-thumbs/portfolio-site.png",
-    link: "https://yourportfolio.com"
+    images: [
+      { src: '/assets/Project/kapitechLanding.png', caption: 'Landing Page Website Kapitech' },
+      { src: '/assets/DetailProject/kapitechClient.png', caption: 'Kapitech Client' },
+    ],
+    link: ""
+  },
+  "Baku": {
+    title: "Website Frontend BAKU",
+    description: "Built with TypeScript, Framer Motion, Simple design & responsive layout.",
+    tech: ["TypeScript", "Framer Motion", "Responsive", "Design"],
+    images: [
+      { src: '/assets/Project/WebsiteBakuLanding.png', caption: 'Landing Page Website BAKU' },
+      { src: '/assets/DetailProject/ProgramBaku.png', caption: 'BAKU program' },
+    ],
+    link: "https://websitebaku.vercel.app/"
   },
   "blockchain-scm": {
     title: "Sorry this DataAnalyst Portofolio is undermaintenance",
@@ -98,7 +111,7 @@ const ProjectDetail = () => {
                 <img
                   src={img.src}
                   alt={img.caption || `${project.title} ${idx + 1}`}
-                  className="w-full max-h-[400px] object-contain rounded-md border border-[#00f0ff]/30 shadow"
+                  className="max-w-[400px] max-h-[400px] object-contain rounded-md border border-[#00f0ff]/30 shadow"
                 />
                 {img.caption && (
                   <p className="text-sm text-gray-400 mt-2 italic text-center">{img.caption}</p>

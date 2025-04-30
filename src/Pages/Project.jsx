@@ -15,9 +15,9 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Web Developer Portfolio',
-    image: '/assets/Project/web-dev.png',
-    link: '/projects/portfolio',
+    title: 'Website Frontend Kapitech',
+    image: '/assets/Project/kapitechLanding.png',
+    link: '/projects/kapitech',
     category: 'Web Development',
   },
   {
@@ -43,9 +43,9 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Web Developer Portfolio',
-    image: '/assets/Project/web-dev2.png',
-    link: '/projects/portfolio',
+    title: 'Website Frontend BAKU',
+    image: '/assets/Project/WebsiteBakuLanding.png',
+    link: '/projects/Baku',
     category: 'Web Development',
   },
   {
