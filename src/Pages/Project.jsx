@@ -8,7 +8,7 @@ import './Project.css';
 const projects = [
   {
     id: 1,
-    title: 'Website Frontend Kapitech',
+    title: 'Frontend Kapitech',
     image: '/assets/Project/kapitechLanding.png',
     link: '/projects/kapitech',
     category: 'Web Development',
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Website Frontend BAKU',
+    title: 'Frontend BAKU',
     image: '/assets/Project/WebsiteBakuLanding.png',
     link: '/projects/Baku',
     category: 'Web Development',
@@ -71,9 +71,16 @@ const projects = [
   },
   {
     id: 10,
-    title: 'Website Fullstack E-Apotek',
+    title: 'Fullstack E-Apotek',
     image: '/assets/Project/landingPageApotek.png',
     link: '/projects/Apotek',
+    category: 'Web Development',
+  },
+  {
+    id: 11,
+    title: 'Fullstack SIS Coin',
+    image: '/assets/Project/SisCoinCover.png',
+    link: '/projects/SisCoin',
     category: 'Web Development',
   },
 ];

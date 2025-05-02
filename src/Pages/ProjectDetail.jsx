@@ -9,7 +9,7 @@ const projectData = {
     description: "System Analyst Intern - BINUS University | Functional Requirement Statement & Flow",
     tech: ["System Analysis", "FRS", "BPMN", "Documentation"],
     images: [
-      { src: '/assets/DetailProject/CertificationFlow.png', caption: 'Alur BPMN Certification System' },
+      { src: '/assets/DetailProject/CertificationFlow.png', caption: 'Flow Certification System' },
       { src: '/assets/DetailProject/FRSPage.png', caption: 'Dokumen FRS Halaman Utama' },
       { src: '/assets/DetailProject/BPMNChart.png', caption: 'Diagram BPMN Lengkap' }
     ],
@@ -22,6 +22,9 @@ const projectData = {
     images: [
       { src: '/assets/Project/kapitechLanding.png', caption: 'Landing Page Website Kapitech' },
       { src: '/assets/DetailProject/kapitechClient.png', caption: 'Kapitech Client' },
+      { src: '/assets/DetailProject/ProjectKapitech.png', caption: 'Kapitech Project' },
+      { src: '/assets/DetailProject/servicesKapitech.png', caption: 'Kapitech Services' },
+      { src: '/assets/DetailProject/Portofoliokapitech.png', caption: 'Kapitech Portofolio' },
     ],
     link: ""
   },
@@ -58,7 +61,7 @@ const projectData = {
   },
   "Message-BlastMessage": {
     title: "Message & Blast Message",
-    description: "Sistem untuk merancang penjadwalan akademik otomatis. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
+    description: "Sistem untuk merancang message. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
     tech: ["System Analysis", "FRS", "DFD", "Stakeholder Analysis"],
     images: [
       { src: "/assets/DetailProject/ChatFlow.png", caption: "Alur Chat Otomatis Mahasiswa" },
@@ -74,7 +77,7 @@ const projectData = {
       { src: '/assets/DetailProject/Diagram1.png', caption: 'Class Diagram' },
       { src: '/assets/DetailProject/DIAGRAM2.png', caption: 'Use Case Diagram' },
     ],
-    link: "https://www.notion.so/Proyek-Message-Blast-Message-Feature-BINUS-Online-Learning-1ce1aa0c13888072bcead10ba0bc9d99?pvs=4"
+    link: "https://docs.google.com/document/d/1iUmZkDp5tVol51Tq8ySa0x25vQxwmfP2/edit?usp=sharing&ouid=102119227841219185229&rtpof=true&sd=true"
   },
   "Apotek": {
     title: "Fullstack E-Apotek",
@@ -106,6 +109,18 @@ const projectData = {
       { src: '/assets/DetailProject/DesignThingking.png', caption: 'Design Thingking Binus Square' },
       { src: '/assets/DetailProject/ResearchResult.png', caption: 'Research' },
       { src: '/assets/DetailProject/scanUI.png', caption: 'Scan Here To See UI' },
+    ],
+    link: "https://drive.google.com/file/d/11dzePMp-JxeAAVYCZOsklDZwz9mTGbd4/view?usp=sharing"
+  },
+  "SisCoin": {
+    title: "Fullstack SisCoin ",
+    description: "Developing Faculty Website fitur appreciation day with adding Coin Project.",
+    tech: ["Bootsrap", "Laravel", "PHP", "Solidity"],
+    images: [
+      { src: '/assets/DetailProject/setelahloginsis.png', caption: 'After Login with metamask account' },
+      { src: '/assets/DetailProject/transactionCoin.png', caption: 'Vieew Transaction coin detail' },
+      { src: '/assets/DetailProject/RedeemProduk.png', caption: 'Redeem Produk with sis coin' },
+      { src: '/assets/DetailProject/getaddressaccount.png', caption: 'database when success get address accountmetamask' },
     ],
     link: "https://drive.google.com/file/d/11dzePMp-JxeAAVYCZOsklDZwz9mTGbd4/view?usp=sharing"
   },
