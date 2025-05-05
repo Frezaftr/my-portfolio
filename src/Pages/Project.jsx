@@ -22,17 +22,17 @@ const projects = [
   },
   {
     id: 3,
-    title: 'E-commerce (Style)',
-    image: '/assets/Project/Cover.png',
-    link: '/projects/ecommerce-ui',
-    category: 'UI/UX',
-  },
-  {
-    id: 4,
     title: 'Data Visualization Space Division',
     image: '/assets/Project/landing.png',
     link: '/projects/SpaceDivion',
     category: 'Data Analyst',
+  },
+  {
+    id: 4,
+    title: 'E-commerce (Style)',
+    image: '/assets/Project/Cover.png',
+    link: '/projects/ecommerce-ui',
+    category: 'UI/UX',
   },
   {
     id: 5,
