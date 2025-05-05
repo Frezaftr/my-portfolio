@@ -85,7 +85,7 @@ const projectData = {
     tech: ["ReactJS", "Tailwind", "ExpressJS", "MongoDB"],
     images: [
       { src: '/assets/DetailProject/ProdukSebelumSigin.png', caption: 'Tampilan Halaman Produk Sebelum Signin' },
-      { src: '/assets/DetailProject/setelahsignin.png', caption: 'setelah Signin dan data diverisikasi' },
+      { src: '/assets/DetailProject/setelahsignin.png', caption: 'setelah Signin dan data diverifikasi' },
       { src: '/assets/DetailProject/detailtransaksi.png', caption: 'Halaman History' },
       { src: '/assets/DetailProject/Admin.png', caption: 'Halaman Admin' }
     ],
