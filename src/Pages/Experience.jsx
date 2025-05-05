@@ -90,11 +90,16 @@ const Experience = () => {
           Experience
         </h2>
 
-        <div className="experience-grid grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-8 w-full">
-          {experienceData.map((exp) => (
-            <ExperienceCard key={exp.id} data={exp} />
-          ))}
+        <div className="experience-grid px-4 md:px-8 w-full overflow-x-auto md:overflow-visible">
+          <div className="flex md:grid md:grid-cols-2 gap-6 min-w-[100%] md:min-w-0">
+            {experienceData.map((exp) => (
+              <div className="flex-shrink-0 w-[90%] md:w-auto">
+                <ExperienceCard key={exp.id} data={exp} />
+              </div>
+            ))}
+          </div>
         </div>
+
       </motion.div>
     </div>
   );

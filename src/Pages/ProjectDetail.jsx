@@ -122,7 +122,7 @@ const projectData = {
       { src: '/assets/DetailProject/RedeemProduk.png', caption: 'Redeem Produk with sis coin' },
       { src: '/assets/DetailProject/getaddressaccount.png', caption: 'database when success get address accountmetamask' },
     ],
-    link: "https://drive.google.com/file/d/11dzePMp-JxeAAVYCZOsklDZwz9mTGbd4/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1WX0qvd0AGqV8XT-ZxosTaqEQ8SRRucUE/view?usp=sharing"
   },
 };
 
