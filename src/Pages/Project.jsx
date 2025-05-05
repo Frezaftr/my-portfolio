@@ -83,6 +83,13 @@ const projects = [
     link: '/projects/SisCoin',
     category: 'Web Development',
   },
+  {
+    id: 12,
+    title: 'DDL DML Project during college',
+    image: '/assets/Project/CoverDatabase.png',
+    link: '/projects/Furniture',
+    category: 'Data Analyst',
+  },
 ];
 
 const Project = () => {

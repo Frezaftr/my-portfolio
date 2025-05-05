@@ -124,6 +124,16 @@ const projectData = {
     ],
     link: "https://drive.google.com/file/d/1WX0qvd0AGqV8XT-ZxosTaqEQ8SRRucUE/view?usp=sharing"
   },
+  "Furniture": {
+    title: "DDL DML Database",
+    description: "This Project is one that i worked on while in college.",
+    tech: ["SSMS", "SQL", "DATABASE RELATIONAL"],
+    images: [
+      { src: '/assets/DetailProject/DDL.png', caption: 'Data Definiton Language' },
+      { src: '/assets/DetailProject/QueryAndResult.png', caption: 'Query And Result' },
+    ],
+    link: "https://docs.google.com/document/d/1OI6HfJe5XjJvWso4OgUQXG8DEsEYU85Q/edit?usp=sharing&ouid=102119227841219185229&rtpof=true&sd=true"
+  },
 };
 
 const ProjectDetail = () => {
