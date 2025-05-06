@@ -27,13 +27,13 @@ const projects = [
     link: '/projects/SpaceDivion',
     category: 'Data Analyst',
   },
-  {
-    id: 4,
-    title: 'E-commerce (Style)',
-    image: '/assets/Project/Cover.png',
-    link: '/projects/ecommerce-ui',
-    category: 'UI/UX',
-  },
+  // {
+  //   id: 4,
+  //   title: 'E-commerce (Style)',
+  //   image: '/assets/Project/Cover.png',
+  //   link: '/projects/ecommerce-ui',
+  //   category: 'UI/UX',
+  // },
   {
     id: 5,
     title: 'Message & Blast Message Systems',

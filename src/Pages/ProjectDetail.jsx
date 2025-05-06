@@ -50,15 +50,15 @@ const projectData = {
     ],
     link: "https://example.com/blockchain-scm"
   },
-  "ecommerce-ui": {
-    title: "E-commerce UI 'MyStyle' ",
-    description: "UI/UX Design for an e-commerce platform focusing on usability.",
-    tech: ["UI/UX", "Figma", "Usability", "Design"],
-    images: [
-      { src: '/assets/DetailProject/uiux.png', caption: 'Pages' },
-    ],
-    link: "https://www.figma.com/proto/6IpZIXBDB0hZF5vMt9ooJj/MyStyle?page-id=0%3A1&node-id=4-431&viewport=1495%2C999%2C0.58&t=qSjFlEq9mMUs2nTw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4%3A428"
-  },
+  // "ecommerce-ui": {
+  //   title: "E-commerce UI 'MyStyle' ",
+  //   description: "UI/UX Design for an e-commerce platform focusing on usability.",
+  //   tech: ["UI/UX", "Figma", "Usability", "Design"],
+  //   images: [
+  //     { src: '/assets/DetailProject/uiux.png', caption: 'Pages' },
+  //   ],
+  //   link: "https://www.figma.com/proto/6IpZIXBDB0hZF5vMt9ooJj/MyStyle?page-id=0%3A1&node-id=4-431&viewport=1495%2C999%2C0.58&t=qSjFlEq9mMUs2nTw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4%3A428"
+  // },
   "Message-BlastMessage": {
     title: "Message & Blast Message",
     description: "Sistem untuk merancang message. Termasuk pembuatan FRS, DFD, dan koordinasi dengan stakeholder akademik.",
