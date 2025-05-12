@@ -8,9 +8,9 @@ import './Project.css';
 const projects = [
   {
     id: 1,
-    title: 'Frontend Kapitech',
-    image: '/assets/Project/kapitechLanding.png',
-    link: '/projects/kapitech',
+    title: 'Fullstack E-Apotek',
+    image: '/assets/Project/landingPageApotek.png',
+    link: '/projects/Apotek',
     category: 'Web Development',
   },
   {
@@ -43,9 +43,9 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Frontend BAKU',
-    image: '/assets/Project/WebsiteBakuLanding.png',
-    link: '/projects/Baku',
+    title: 'Fullstack SIS Coin',
+    image: '/assets/Project/SisCoinCover.png',
+    link: '/projects/SisCoin',
     category: 'Web Development',
   },
   {
@@ -71,16 +71,16 @@ const projects = [
   },
   {
     id: 10,
-    title: 'Fullstack E-Apotek',
-    image: '/assets/Project/landingPageApotek.png',
-    link: '/projects/Apotek',
+    title: 'Frontend Kapitech',
+    image: '/assets/Project/kapitechLanding.png',
+    link: '/projects/kapitech',
     category: 'Web Development',
   },
   {
     id: 11,
-    title: 'Fullstack SIS Coin',
-    image: '/assets/Project/SisCoinCover.png',
-    link: '/projects/SisCoin',
+    title: 'Frontend BAKU',
+    image: '/assets/Project/WebsiteBakuLanding.png',
+    link: '/projects/Baku',
     category: 'Web Development',
   },
   {
