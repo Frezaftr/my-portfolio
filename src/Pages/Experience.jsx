@@ -24,7 +24,7 @@ const experienceData = [
   {
     id: 2,
     title: 'QA Engineer Intern',
-    company: 'RiddleStory',
+    company: 'Enboq',
     date: 'Mei 2023 - Jul 2023',
     responsibilities: [
       'Responsible for maintaining system quality on the RiddleStory website by identifying and preventing bugs, errors, and system failures through a thorough testing process.',
